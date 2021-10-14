@@ -1,11 +1,18 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+   font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent
 }
 body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  background-color: #f2f3f8;
 }
 article,
 aside,
@@ -38,6 +45,8 @@ template {
 }
 a {
   background: transparent;
+  color: #428bca;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -187,16 +196,8 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-  -webkit-tap-highlight-color: transparent;
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #333;
-  background-color: #f2f3f8;
+
+
 }
 input,
 button,
@@ -206,22 +207,13 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a {
-  color: #428bca;
-  text-decoration: none;
-}
+
 a:hover,
 a:focus {
   color: #2a6496;
   text-decoration: underline;
 }
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-figure {
-  margin: 0;
+
 }
 img {
   vertical-align: middle;
@@ -1866,11 +1858,8 @@ fieldset[disabled] .btn {
   filter: alpha(opacity=65);
   box-shadow: none;
 }
-.btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
-}
+
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
@@ -2220,6 +2209,7 @@ input[type="button"].btn-block {
   border: none;
   color: #fff;
   text-transform: capitalize;
+  
 }
 .btn-default:hover,
 .btn-default:active {
@@ -2463,10 +2453,10 @@ input[type="button"].btn-block {
       rgba(52, 73, 94, 0.8),
       rgba(52, 73, 94, 0.8)
     ),
-    url(http://timothy.expert/codepen-resources/computer.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
       center fixed;
   background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(http://timothy.expert/codepen-resources/computer.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
       center fixed;
   background-size: cover;
   text-transform: capitalize;
@@ -2540,10 +2530,10 @@ input[type="button"].btn-block {
       rgba(52, 73, 94, 0.8),
       rgba(52, 73, 94, 0.8)
     ),
-    url(http://timothy.expert/codepen-resources/writing.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
       center;
   background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(http://timothy.expert/codepen-resources/writing.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
       center;
   height: 250px;
   background-size: cover;
@@ -2562,10 +2552,10 @@ input[type="button"].btn-block {
       rgba(52, 73, 94, 0.8),
       rgba(52, 73, 94, 0.8)
     ),
-    url(http://timothy.expert/codepen-resources/collab.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
       center fixed;
   background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(http://timothy.expert/codepen-resources/collab.jpg) no-repeat center
+    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
       center fixed;
   height: 550px;
   background-size: cover;
