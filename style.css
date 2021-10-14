@@ -1,4 +1,4 @@
-
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -107,7 +107,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace;
   font-size: 1em;
 }
 button,
@@ -198,7 +198,7 @@ th {
 }
 
 
-}
+
 input,
 button,
 select,
@@ -214,10 +214,9 @@ a:focus {
   text-decoration: underline;
 }
 
-}
-img {
-  vertical-align: middle;
-}
+
+
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -241,12 +240,8 @@ img {
 .img-circle {
   border-radius: 50%;
 }
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #34495e;
-}
+
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -441,9 +436,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-}
-.bg-primary {
-  background-color: #428bca;
+
 }
 a.bg-primary:hover {
   background-color: #3071a9;
@@ -603,9 +596,7 @@ address {
   font-style: normal;
   line-height: 1.42857;
 }
-code,
-kbd,
-pre,
+
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -625,19 +616,8 @@ kbd {
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 1.42857;
-  word-break: break-all;
-  word-wrap: break-word;
-  color: #333;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+
+
 pre code {
   padding: 0;
   font-size: inherit;
@@ -1432,33 +1412,13 @@ pre code {
     margin-left: 100%;
   }
 }
-fieldset {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  min-width: 0;
-}
-legend {
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
-  line-height: inherit;
-  color: #333;
-  border: 0;
-  border-bottom: 1px solid #e5e5e5;
-}
+
 label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-input[type="search"] {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-input[type="radio"],
+
 input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
@@ -1479,7 +1439,6 @@ input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 output {
@@ -1532,9 +1491,8 @@ fieldset[disabled] .form-control {
 textarea.form-control {
   height: auto;
 }
-input[type="search"] {
-  -webkit-appearance: none;
-}
+
+ 
 input[type="date"] {
   line-height: 34px;
 }
@@ -1803,7 +1761,6 @@ select[multiple].input-lg {
   font-size: 13px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
     0 1px 1px rgba(255, 255, 255, 0.2);
@@ -1835,7 +1792,6 @@ select[multiple].input-lg {
 .btn:active:focus,
 .btn.active:focus {
   outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 .btn:hover,
@@ -1877,9 +1833,8 @@ fieldset[disabled] .btn {
 .btn-default.active {
   background-image: none;
 }
-.open .btn-default.dropdown-toggle {
-  background-image: none;
-}
+
+  
 .btn-default.disabled,
 .btn-default.disabled:hover,
 .btn-default.disabled:focus,
@@ -1923,9 +1878,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active {
   background-image: none;
-}
-.open .btn-primary.dropdown-toggle {
-  background-image: none;
+
 }
 .btn-primary.disabled,
 .btn-primary.disabled:hover,
@@ -1970,9 +1923,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active {
   background-image: none;
-}
-.open .btn-success.dropdown-toggle {
-  background-image: none;
+
 }
 .btn-success.disabled,
 .btn-success.disabled:hover,
@@ -2018,9 +1969,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active {
   background-image: none;
 }
-.open .btn-info.dropdown-toggle {
-  background-image: none;
-}
+
 .btn-info.disabled,
 .btn-info.disabled:hover,
 .btn-info.disabled:focus,
@@ -2064,9 +2013,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning:active,
 .btn-warning.active {
   background-image: none;
-}
-.open .btn-warning.dropdown-toggle {
-  background-image: none;
+
 }
 .btn-warning.disabled,
 .btn-warning.disabled:hover,
@@ -2112,9 +2059,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active {
   background-image: none;
 }
-.open .btn-danger.dropdown-toggle {
-  background-image: none;
-}
+
 .btn-danger.disabled,
 .btn-danger.disabled:hover,
 .btn-danger.disabled:focus,
@@ -2444,23 +2389,12 @@ input[type="button"].btn-block {
   width: 60%;
   left: 40%;
 }
-.jumbotron {
-  padding: 30px;
-  color: #fff;
-  background-color: #eee;
-  height: 700px;
-  background: -webkit-linear-gradient(
-      rgba(52, 73, 94, 0.8),
-      rgba(52, 73, 94, 0.8)
-    ),
-    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
-      center fixed;
-  background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
-      center fixed;
+
+   
+   
   background-size: cover;
   text-transform: capitalize;
-}
+
 .jumbotron hr {
   width: 80%;
   margin: 5px auto;
@@ -2529,11 +2463,8 @@ input[type="button"].btn-block {
   background: -webkit-linear-gradient(
       rgba(52, 73, 94, 0.8),
       rgba(52, 73, 94, 0.8)
-    ),
-    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
-      center;
-  background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
+    )
+
       center;
   height: 250px;
   background-size: cover;
@@ -2550,13 +2481,9 @@ input[type="button"].btn-block {
 .work-together {
   background: -webkit-linear-gradient(
       rgba(52, 73, 94, 0.8),
-      rgba(52, 73, 94, 0.8)
-    ),
-    url(https://lh5.googleusercontent.com/p/AF1QipOM85tlYkR8h6abXyg7B48ta8mW0xUCN5dxQCs=w408-h272-k-no) no-repeat center
-      center fixed;
-  background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)),
-    url(https://lh5.googleusercontent.com/p/AF1QipOly96ZrE-BKoHSmS2rSytsq9ErwVmuYcp3WH0J=w408-h306-k-no) no-repeat center
-      center fixed;
+      rgba(52, 73, 94, 0.8));
+ 
+
   height: 550px;
   background-size: cover;
   padding-top: 50px;
@@ -2615,16 +2542,8 @@ input[type="button"].btn-block {
     transparent 75%,
     transparent
   );
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.15) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
-    transparent 75%,
-    transparent
-  );
+  
+
   background-size: 40px 40px;
 }
 .progress.active .progress-bar {
@@ -2645,16 +2564,7 @@ input[type="button"].btn-block {
     transparent 75%,
     transparent
   );
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.15) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
-    transparent 75%,
-    transparent
-  );
+ 
 }
 .progress-bar-css {
   background-color: #ffdf8a;
@@ -2670,16 +2580,7 @@ input[type="button"].btn-block {
     transparent 75%,
     transparent
   );
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.15) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
-    transparent 75%,
-    transparent
-  );
+  
 }
 .progress-bar-php {
   background-color: #acc88c;
@@ -2695,16 +2596,7 @@ input[type="button"].btn-block {
     transparent 75%,
     transparent
   );
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.15) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
-    transparent 75%,
-    transparent
-  );
+  
 }
 .progress-bar-sql {
   background-color: #b0dff5;
@@ -2720,16 +2612,7 @@ input[type="button"].btn-block {
     transparent 75%,
     transparent
   );
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.15) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.15) 75%,
-    transparent 75%,
-    transparent
-  );
+  
 }
 .html,
 .css,
@@ -2913,7 +2796,7 @@ a.list-group-item-danger.active:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 .well blockquote {
-  border-color: #ddd;
+  
   border-color: rgba(0, 0, 0, 0.15);
 }
 .well-lg {
